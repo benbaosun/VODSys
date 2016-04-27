@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="plantes">
+		<item>ForYou.mp4</item>
+		<item>sample_h264_300kbit.mp4</item>
+		<item>不老的传说.mp4</item>
+		<item>传奇.mp4</item>
+		<item>丁香花.mp4</item>
+		<item>歌剧2.mp4</item>
+		<item>菊花台.mp4</item>
+		<item>猫和老鼠.mp4</item>
+		<item>你是我心内的一首歌.mp4</item>
+		<item>鸟儿.mp4</item>
+		<item>千千阙歌.mp4</item>
+		<item>甜蜜蜜.mp4</item>
+		<item>外婆的澎湖湾.m4v</item>
+		<item>心中的日月.mp4</item>
+		<item>星星.mp4</item>
+		<item>因为爱情.mp4</item>
+		<item>樱花.mp4</item>
+		<item>最浪漫的事.mp4</item>
+	</string-array>
+</resources>

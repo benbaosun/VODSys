@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/registergroud">
+   <RelativeLayout 
+  	    android:layout_width="fill_parent"
+  		android:layout_height="wrap_content"
+  		android:padding="15dip"        
+    	android:layout_margin="15dip" 
+    	 >
+    	<TextView 
+    		android:id="@+id/regsiteruser"
+    		android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:layout_alignParentTop="true"
+    		android:layout_marginTop="5dp"
+    		android:textSize="25sp"
+    		android:text="@string/username"/>
+    	<EditText 
+    		android:id="@+id/registerusernameedit"
+    		android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+    		android:hint=""
+    		android:layout_below="@id/regsiteruser"
+    		android:singleLine="true"
+    		android:inputType="text"/>
+
+      <TextView 
+      	android:id="@+id/registerpassword"
+      	android:layout_width="wrap_content"
+      	android:layout_height="wrap_content"
+      	android:layout_below="@id/registerusernameedit"
+      	android:layout_marginTop="3dp"
+      	android:textSize="25sp"
+      	android:text="@string/usercode"/>
+      <EditText 
+      	android:id="@+id/registerpasswordedit"
+      	android:layout_width="fill_parent"
+      	android:layout_height="wrap_content"
+      	android:layout_below="@id/registerpassword"
+      	android:singleLine="true"
+      	android:inputType="textPassword" />
+      
+      
+      
+      
+      <TextView 
+      	android:id="@+id/nicknametext"
+      	android:layout_width="wrap_content"
+      	android:layout_height="wrap_content"
+      	android:layout_below="@id/registerpasswordedit"
+      	android:layout_marginTop="3dp"
+      	android:textSize="25sp"
+      	android:text="@string/nicknametext"/>
+    	<EditText 
+    		android:id="@+id/nicknameedit"
+    		android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+    		android:hint=""
+    		android:layout_below="@id/nicknametext"
+    		android:singleLine="true"
+    		android:inputType="text"/>
+      <TextView 
+      	android:id="@+id/emailtext"
+      	android:layout_width="wrap_content"
+      	android:layout_height="wrap_content"
+      	android:layout_below="@id/nicknameedit"
+      	android:layout_marginTop="3dp"
+      	android:textSize="25sp"
+      	android:text="@string/emailtext"/>
+    	<EditText 
+    		android:id="@+id/emailedit"
+    		android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+    		android:hint=""
+    		android:layout_below="@id/emailtext"
+    		android:singleLine="true"
+    		android:inputType="textEmailAddress"/>
+   
+
+
+      <Button 
+      	android:id="@+id/registerbutton"
+      	android:layout_width="wrap_content"
+      	android:layout_height="wrap_content"
+      	android:layout_below="@id/emailedit"
+      	android:layout_alignRight="@id/emailedit"
+      	android:text="@string/userregister"/>
+  	</RelativeLayout>
+    
+
+</LinearLayout>

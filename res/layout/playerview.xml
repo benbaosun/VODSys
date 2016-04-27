@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/rtspQosMainView"
+    >
+    
+    <SurfaceView android:id="@+id/SurfaceView"
+        android:layout_height="250dip"
+        android:layout_width="fill_parent">
+    </SurfaceView>
+      <TextView android:id="@+id/userInfoPlayerText"
+  			android:layout_width="fill_parent" 
+  			android:layout_height="35dip"
+  			android:textSize="25sp"
+  			android:textColor="@color/red"
+  			android:text=""
+  			>
+  		</TextView>
+
+    <TextView 
+    	android:id="@+id/videoInfoPlayerText"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_marginTop="5dp"
+    	android:textSize="25sp"
+    	android:singleLine="false"  
+        android:maxLines="5"  
+        android:scrollbars="vertical"  
+    	android:text=""/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+	    android:layout_height="215dp"
+	    android:orientation="vertical"
+	    android:id="@+id/qosChartLayout"
+     >      	
+    </LinearLayout>
+</LinearLayout>

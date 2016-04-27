@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical"
+  android:background="@drawable/backgroud"
+  >
+  <TextView android:id="@+id/tipTextView"
+  			android:layout_width="fill_parent" 
+  			android:layout_height="20dip"
+  			android:text=""
+  			android:textSize="25sp"
+  			android:textStyle="bold"
+  			android:textColor="#ff0000ff" 
+  			>     
+  </TextView>
+  <ListView android:id="@+id/listview" 
+           android:layout_width="fill_parent"
+           android:layout_height="320dip"
+           android:drawSelectorOnTop="true"
+           android:descendantFocusability="blocksDescendants"
+   >
+  </ListView>
+
+  
+  <TextView android:id="@+id/userInfoSelectText"
+  			android:layout_width="fill_parent" 
+  			android:layout_height="60dip"
+  			android:textSize="25sp"
+  			android:textColor="@color/red"
+  			android:text=""
+  			>
+  		</TextView>
+  <Button android:id="@+id/toplay"
+       android:shadowColor="@color/greenyellow"       
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+            android:text="@string/toplay"
+            android:focusable="false" 
+            />
+</LinearLayout>

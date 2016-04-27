@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">流视频系统客户端</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello">Hello world!</string>
+    <string name="song_prompt">请您点播视频!</string>
+    <string name="exit_yes_no_title">"提示"</string>
+    <string name="exit_yes_no_confirm">您要退出程序吗？</string>
+    <string name="exit_yes_no_yes">退出</string>
+    <string name="exit_yes_no_no">取消</string>
+    <string name="toplay">播放</string>
+    <string name="selected">已选择</string>
+    <string name="start">开始</string>
+    <string name="toTheEnd">本视频播放完毕！</string>
+    <string name="cancel">取消</string>
+    <string name="showQoS">QoS显示</string>
+    <string name="about">关于</string>
+    <string name="info">视频信息</string>
+    <string name="our">作者：Moyujinlan\n邮箱：golden1314521@gmail.com\n单位：北京邮电大学网络与交换技术国家重点实验室\n</string>
+    <string name="help">软件版本：流视频QoS测量客户端-v1.3\n文档说明：请登录我的博客查询：http://my.csdn.net/u012176591</string>
+
+    
+    <string name="lossRate">网络丢包率图示</string>
+    <string name="titleLossRate">网络丢包率（‰）</string>
+    <string name="menuLossRate">网络丢包率</string>
+    <string name="delay">网络延迟图示</string>
+    <string name="titleDelay">延迟</string>
+    <string name="menuDelay">网络延迟</string>
+    <string name="shake">网络抖动图示</string>
+    <string name="titleShake">抖动</string>
+    <string name="menuShake">网络抖动</string>
+    <string name="time">时间</string>
+    
+    <string name="aboutHelp">帮助</string>
+    <string name="aboutContact">联系作者 </string>
+    
+    <string name="username">用户名</string>
+    <string name="usercode">密码 </string>
+    <string name="userregister">注册</string>
+    <string name="userlogin">登录 </string>
+    <string name="nicknametext">昵称</string>
+    <string name="emailtext">邮箱</string>
+    <string name="nameAndpasswd">对不起，用户名和密码不能为空，请您再次输入 </string>
+    <string name="registerwarn">对不起，输入不能为空，请您再次输入 </string>
+    <string name="registeragin">对不起，不能正常注册，请稍后重试</string>
+    
+    <string name="warnToRegister">对不起，您输入的用户名和密码有误，请您确认后再次登录。如果您尚未注册，请注册后登录。 </string>
+    
+    
+    
+
+</resources>
