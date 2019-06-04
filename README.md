@@ -1,3 +1,11 @@
+# 我在音视频方面的其它工作
++ Android移植ffmpeg
+  + 我的github仓库： https://github.com/wolfbrother/vPlayer
++ 基于AVIlib库，在Android上解码、播放AVI视频文件
+  + 我的github仓库： https://github.com/wolfbrother/AVI-Player
++ 视频播放器的缓冲界面设计
+  +我的github仓库： https://github.com/wolfbrother/MediaPlayer
+
 # VODSys
 VODSys
 
