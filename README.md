@@ -6,7 +6,7 @@
 + 基于AVIlib库，在Android上解码、播放AVI视频文件
   + 我的github仓库： https://github.com/wolfbrother/AVI-Player
 + 视频播放器的缓冲界面设计
-  +我的github仓库： https://github.com/wolfbrother/MediaPlayer
+  + 我的github仓库： https://github.com/wolfbrother/MediaPlayer
 
 # VODSys项目情况
 VODSys
