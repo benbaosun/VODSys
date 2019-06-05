@@ -11,7 +11,12 @@
 # VODSys项目情况
 VODSys
 
-这是我本科毕业设计《基于移动互联网的流媒系统的设计与实现》相关的工程代码，主要包括：
+## Android视频点播客户端的效果图
+![androidUI](https://github.com/wolfbrother/VODSys/blob/master/res/androidUI.png?raw=true)
+
+## 这是我本科毕业设计《基于移动互联网的流媒系统的设计与实现》相关的工程
+
+主要包括：
 
 + 移动客户端程序（Android）。
 
@@ -27,5 +32,4 @@ VODSys
 
 论文见：[《基于移动互联网的流媒系统的设计与实现》](https://raw.githubusercontent.com/wolfbrother/VODSys/master/%E6%9C%AC%E7%A7%91%E6%AF%95%E4%B8%9A%E8%AE%BE%E8%AE%A1.pdf )，有详细的需求分析、模块介绍、实现过程和展示效果等。
 
-## Android客户端效果图
-![androidUI](https://github.com/wolfbrother/VODSys/blob/master/res/androidUI.png?raw=true)
+
