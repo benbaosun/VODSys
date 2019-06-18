@@ -28,7 +28,7 @@ VODSys
 
 + 流媒体服务器
 
-用的是Apple公司开源的流媒体服务器Darwin Streaming Server （见我的博客[ubuntu安装流媒体服务器Darwin Streaming Server](http://blog.csdn.net/u012176591/article/details/21625325)），这一项牵涉到的代码不多，故没有包含进来。
+用的是Apple公司开源的流媒体服务器[Darwin Streaming Server](https://github.com/macosforge/dss) （见我的博客[ubuntu安装流媒体服务器Darwin Streaming Server](http://blog.csdn.net/u012176591/article/details/21625325)），这一项牵涉到的代码不多，故没有包含进来。
 
 论文见：[《基于移动互联网的流媒系统的设计与实现》](https://raw.githubusercontent.com/wolfbrother/VODSys/master/%E6%9C%AC%E7%A7%91%E6%AF%95%E4%B8%9A%E8%AE%BE%E8%AE%A1.pdf )，有详细的需求分析、模块介绍、实现过程和展示效果等。
 
